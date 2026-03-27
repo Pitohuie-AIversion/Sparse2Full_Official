@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "search": "Search Docs...",
+    "search_mobile": "Search",
+    "deployed": "Deployed",
+    "home": "Home",
+    "docs": "Docs",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "admin": "Admin"
+  },
+  "home": {
+    "hero_title": "Sparse2Full Framework",
+    "hero_subtitle": "Advanced deep learning framework and toolchain for efficient sparse data reconstruction.",
+    "get_started": "Get Started",
+    "features": "Features",
+    "f1_title": "High Performance",
+    "f1_desc": "Optimized ops for distributed training.",
+    "f2_title": "Modular",
+    "f2_desc": "Independent modules for easy integration."
+  }
+}

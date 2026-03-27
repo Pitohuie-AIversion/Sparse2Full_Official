@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "search": "搜索文档...",
+    "search_mobile": "搜索",
+    "deployed": "已部署",
+    "home": "首页",
+    "docs": "文档",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "admin": "后台管理"
+  },
+  "home": {
+    "hero_title": "Sparse2Full",
+    "hero_subtitle": "先进的深度学习框架与工具链，致力于提供从稀疏数据到完整重建的高效解决方案。",
+    "get_started": "快速开始",
+    "features": "核心特性",
+    "f1_title": "高性能训练",
+    "f1_desc": "优化底层算子，支持多节点分布式训练。",
+    "f2_title": "模块化设计",
+    "f2_desc": "核心功能拆分为独立模块，便于集成扩展。"
+  }
+}

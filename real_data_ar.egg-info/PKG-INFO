@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: real_data_ar
+Version: 0.1.0
+Summary: A library for autoregressive training on real diffusion-reaction data.
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: torch>=2.0.0
+Requires-Dist: numpy
+Requires-Dist: h5py
+Requires-Dist: omegaconf
+Requires-Dist: pytorch-lightning
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: einops
+Requires-Dist: timm
+Requires-Dist: scikit-image
+Requires-Dist: fvcore
+Requires-Dist: thop
+Requires-Dist: psutil
+Requires-Dist: tensorboard

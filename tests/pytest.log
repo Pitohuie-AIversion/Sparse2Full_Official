@@ -1,0 +1,12 @@
+2026-03-25 13:04:09 [   DEBUG] __init__.py:337: matplotlib data path: /share/fandixiaLab/suguangsheng/anaconda3/lib/python3.12/site-packages/matplotlib/mpl-data
+2026-03-25 13:04:09 [   DEBUG] __init__.py:337: CONFIGDIR=/share/fandixiaLab/suguangsheng/.config/matplotlib
+2026-03-25 13:04:09 [   DEBUG] __init__.py:1498: interactive is False
+2026-03-25 13:04:09 [   DEBUG] __init__.py:1499: platform is linux
+2026-03-25 13:04:09 [   DEBUG] __init__.py:337: CACHEDIR=/share/fandixiaLab/suguangsheng/.cache/matplotlib
+2026-03-25 13:04:09 [   DEBUG] font_manager.py:1574: Using fontManager instance from /share/fandixiaLab/suguangsheng/.cache/matplotlib/fontlist-v330.json
+2026-03-25 13:04:09 [   DEBUG] __init__.py:47: Creating converter from 7 to 5
+2026-03-25 13:04:09 [   DEBUG] __init__.py:47: Creating converter from 5 to 7
+2026-03-25 13:04:09 [   DEBUG] __init__.py:47: Creating converter from 7 to 5
+2026-03-25 13:04:09 [   DEBUG] __init__.py:47: Creating converter from 5 to 7
+2026-03-25 13:04:11 [   DEBUG] cmd.py:977: Popen(['git', 'version'], cwd=/share/fandixiaLab/suguangsheng/PycharmProjects/Sparse2Full/minimal_export, universal_newlines=False, shell=None, istream=None)
+2026-03-25 13:04:11 [   DEBUG] cmd.py:977: Popen(['git', 'version'], cwd=/share/fandixiaLab/suguangsheng/PycharmProjects/Sparse2Full/minimal_export, universal_newlines=False, shell=None, istream=None)
