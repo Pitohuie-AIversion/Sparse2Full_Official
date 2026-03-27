@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: './', // important for GitHub Pages
+  base: '/Sparse2Full_Official/', // important for GitHub Pages deployment matching the repository name
   test: {
     globals: true,
     environment: 'jsdom',

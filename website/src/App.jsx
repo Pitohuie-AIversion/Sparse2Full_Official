@@ -11,7 +11,7 @@ import './i18n'; // initialize i18n
 
 function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router basename="/Sparse2Full_Official">
       <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-slate-400">Loading...</div>}>
         <Layout>
           <Routes>
