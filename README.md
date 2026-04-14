@@ -64,27 +64,36 @@ python tools/training/train_real_data_ar.py
 ## 🧠 核心功能
 
 ### 模型架构
-*   **Spatial Model**: 基于 Swin Transformer 的 U-Net (`models/swin_unet.py`)，负责单帧的空间特征提取与重建。
-*   **Temporal Model**: 负责序列间的时序演化 (`models/temporal/`)。
-*   **AR Wrapper**: 自回归包装器 (`models/ar/wrapper.py`)，支持 Teacher Forcing 训练和 Rollout 推理。
+
+- **Spatial Model**: 基于 Swin Transformer 的 U-Net (`models/swin_unet.py`)，负责单帧的空间特征提取与重建。
+- **Temporal Model**: 负责序列间的时序演化 (`models/temporal/`)。
+- **AR Wrapper**: 自回归包装器 (`models/ar/wrapper.py`)，支持 Teacher Forcing 训练和 Rollout 推理。
 
 ### 训练策略
-*   **三阶段训练**: 
-    1.  **Spatial Pretraining**: 仅训练空间重建能力。
-    2.  **Temporal Pretraining**: 冻结空间参数，训练时序预测能力。
-    3.  **Joint Finetuning**: 端到端联合微调。
-*   **物理一致性约束**: 集成了退化算子 (`ops/degradation.py`) 和数据一致性损失，确保预测结果符合物理规律。
+
+- **三阶段训练**:
+  1. **Spatial Pretraining**: 仅训练空间重建能力。
+  2. **Temporal Pretraining**: 冻结空间参数，训练时序预测能力。
+  3. **Joint Finetuning**: 端到端联合微调。
+- **物理一致性约束**: 集成了退化算子 (`ops/degradation.py`) 和数据一致性损失，确保预测结果符合物理规律。
 
 ### 配置管理
+
 项目使用 **Hydra** 进行配置管理。您可以灵活地组合和覆盖配置：
-*   `configs/data/`: 数据集参数
-*   `configs/model/`: 模型架构参数
-*   `configs/train/`: 训练超参数（学习率、Epochs、Loss权重等）
+
+- `configs/data/`: 数据集参数
+- `configs/model/`: 模型架构参数
+- `configs/train/`: 训练超参数（学习率、Epochs、Loss权重等）
 
 ## 📊 输出与监控
 
 训练过程中会生成以下产物：
-*   **日志**: `training.log` 记录训练进度和指标。
-*   **TensorBoard**: 包含 Loss 曲线和可视化图像。
-*   **Checkpoints**: `.pth` 模型权重文件，支持断点续训 (`--resume`)。
-*   **Config Snapshot**: `config_merged.yaml` 记录当前运行的完整配置快照。
+
+- **日志**: `training.log` 记录训练进度和指标。
+- **TensorBoard**: 包含 Loss 曲线和可视化图像。
+- **Checkpoints**: `.pth` 模型权重文件，支持断点续训 (`--resume`)。
+- **Config Snapshot**: `config_merged.yaml` 记录当前运行的完整配置快照。
+- 2026
+
+  <br />
+
