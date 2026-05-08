@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import sri from '@small-tech/vite-plugin-sri'
+import sri from 'vite-plugin-sri-gen'
 
 // https://vitejs.dev/config/
 export default defineConfig({
