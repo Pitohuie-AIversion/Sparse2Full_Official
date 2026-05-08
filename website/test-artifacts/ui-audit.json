@@ -1,6 +1,6 @@
 {
-  "startedAt": "2026-05-08T06:16:34.104Z",
-  "baseUrl": "http://127.0.0.1:4174/Sparse2Full_Official/",
+  "startedAt": "2026-05-08T06:44:10.685Z",
+  "baseUrl": "http://localhost:4173/Sparse2Full_Official/",
   "runs": [
     {
       "browser": "chromium",
@@ -8,50 +8,50 @@
       "pages": [
         {
           "name": "home",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/",
+          "url": "http://localhost:4173/Sparse2Full_Official/",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 1094,
+          "elapsedMs": 1152,
           "screenshot": "screenshots/chromium_desktop_home.png"
         },
         {
           "name": "docs",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/docs",
+          "url": "http://localhost:4173/Sparse2Full_Official/docs",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 1008,
+          "elapsedMs": 1009,
           "screenshot": "screenshots/chromium_desktop_docs.png"
         },
         {
           "name": "about",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/about",
+          "url": "http://localhost:4173/Sparse2Full_Official/about",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 767,
+          "elapsedMs": 797,
           "screenshot": "screenshots/chromium_desktop_about.png"
         },
         {
           "name": "contact",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/contact",
+          "url": "http://localhost:4173/Sparse2Full_Official/contact",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 649,
+          "elapsedMs": 657,
           "screenshot": "screenshots/chromium_desktop_contact.png"
         },
         {
           "name": "login",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/login",
+          "url": "http://localhost:4173/Sparse2Full_Official/login",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 666,
+          "elapsedMs": 674,
           "screenshot": "screenshots/chromium_desktop_login.png"
         },
         {
           "name": "admin",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/admin",
+          "url": "http://localhost:4173/Sparse2Full_Official/admin",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 656,
+          "elapsedMs": 669,
           "screenshot": "screenshots/chromium_desktop_admin.png"
         }
       ],
@@ -69,112 +69,72 @@
           "ok": true
         }
       ],
-      "consoleMessages": [
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222650814&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=16&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938469~118463262~118494633&sid=1778222651&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=427",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222652062&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=4&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&tag_exp=0~115938465~115938468~118463262&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fdocs&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1251",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222653309&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=9&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616986~115938465~115938468~118463261~118494634&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fabout&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=901",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222654204&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=8&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938469~118463261&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=752",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222654952&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=11&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938469~118463261~118864611&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Flogin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=770",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222655720&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=17&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938468~118463261&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fadmin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=758",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222656471&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=4&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938469~118128923~118463261&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=741",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222657213&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=869926283.1778222651&frm=0&pscdl=noapi&rcb=11&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&tag_exp=0~115938465~115938468~118463261&sid=1778222651&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1527",
+          "failure": "net::ERR_ABORTED"
         }
       ],
-      "pageErrors": [],
-      "failedRequests": [],
       "badResponses": [],
       "timings": [
         {
           "name": "home",
-          "elapsedMs": 1094,
+          "elapsedMs": 1152,
           "mainStatus": 200
         },
         {
           "name": "docs",
-          "elapsedMs": 1008,
+          "elapsedMs": 1009,
           "mainStatus": 200
         },
         {
           "name": "about",
-          "elapsedMs": 767,
+          "elapsedMs": 797,
           "mainStatus": 200
         },
         {
           "name": "contact",
-          "elapsedMs": 649,
+          "elapsedMs": 657,
           "mainStatus": 200
         },
         {
           "name": "login",
-          "elapsedMs": 666,
+          "elapsedMs": 674,
           "mainStatus": 200
         },
         {
           "name": "admin",
-          "elapsedMs": 656,
+          "elapsedMs": 669,
           "mainStatus": 200
         }
       ]
@@ -185,50 +145,50 @@
       "pages": [
         {
           "name": "home",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/",
+          "url": "http://localhost:4173/Sparse2Full_Official/",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 1027,
+          "elapsedMs": 1371,
           "screenshot": "screenshots/chromium_mobile_home.png"
         },
         {
           "name": "docs",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/docs",
+          "url": "http://localhost:4173/Sparse2Full_Official/docs",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 1029,
+          "elapsedMs": 1004,
           "screenshot": "screenshots/chromium_mobile_docs.png"
         },
         {
           "name": "about",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/about",
+          "url": "http://localhost:4173/Sparse2Full_Official/about",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 898,
+          "elapsedMs": 811,
           "screenshot": "screenshots/chromium_mobile_about.png"
         },
         {
           "name": "contact",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/contact",
+          "url": "http://localhost:4173/Sparse2Full_Official/contact",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 657,
+          "elapsedMs": 655,
           "screenshot": "screenshots/chromium_mobile_contact.png"
         },
         {
           "name": "login",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/login",
+          "url": "http://localhost:4173/Sparse2Full_Official/login",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 691,
+          "elapsedMs": 674,
           "screenshot": "screenshots/chromium_mobile_login.png"
         },
         {
           "name": "admin",
-          "url": "http://127.0.0.1:4174/Sparse2Full_Official/admin",
+          "url": "http://localhost:4173/Sparse2Full_Official/admin",
           "ok": true,
           "mainStatus": 200,
-          "elapsedMs": 668,
+          "elapsedMs": 656,
           "screenshot": "screenshots/chromium_mobile_admin.png"
         }
       ],
@@ -246,119 +206,83 @@
           "ok": true
         }
       ],
-      "consoleMessages": [
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222659847&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=13&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938469~118463261~118494633~118719171&sid=1778222660&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=414",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222659847&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=13&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=2&tag_exp=0~115938465~115938469~118463261~118494633~118719171&sid=1778222660&sct=1&seg=0&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=user_engagement&_et=1105&tfd=1520",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222661357&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=9&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&tag_exp=0~115938466~115938468~118463261~118719171~118864611&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fdocs&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1369",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222662718&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=13&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938469~118463261~118494633~118719170&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fabout&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=937",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222663650&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=7&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616986~115938465~115938468~118463262&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=783",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222664429&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=5&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938469~118463261~118719170&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Flogin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=802",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222665225&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=4&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938468~118463262~118494633~118719172&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fadmin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=790",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222666007&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=18&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938468~118128923~118463262&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=728",
+          "failure": "net::ERR_ABORTED"
         },
         {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
-        },
-        {
-          "type": "error",
-          "text": "X-Frame-Options may only be set via an HTTP header sent along with a document. It may not be set inside <meta>."
-        },
-        {
-          "type": "error",
-          "text": "Subresource Integrity: The resource 'https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX' has an integrity attribute, but the resource requires the request to be CORS enabled to check the integrity, and it is not. The resource has been blocked …"
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je6562za200&_p=1778222666734&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=1429237742.1778222660&frm=0&pscdl=noapi&rcb=7&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&tag_exp=0~115616985~115938466~115938469~118463261~118719172&sid=1778222660&sct=1&seg=1&dl=http%3A%2F%2Flocalhost%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1537",
+          "failure": "net::ERR_ABORTED"
         }
       ],
-      "pageErrors": [],
-      "failedRequests": [],
       "badResponses": [],
       "timings": [
         {
           "name": "home",
-          "elapsedMs": 1027,
+          "elapsedMs": 1371,
           "mainStatus": 200
         },
         {
           "name": "docs",
-          "elapsedMs": 1029,
+          "elapsedMs": 1004,
           "mainStatus": 200
         },
         {
           "name": "about",
-          "elapsedMs": 898,
+          "elapsedMs": 811,
           "mainStatus": 200
         },
         {
           "name": "contact",
-          "elapsedMs": 657,
+          "elapsedMs": 655,
           "mainStatus": 200
         },
         {
           "name": "login",
-          "elapsedMs": 691,
+          "elapsedMs": 674,
           "mainStatus": 200
         },
         {
           "name": "admin",
-          "elapsedMs": 668,
+          "elapsedMs": 656,
           "mainStatus": 200
         }
       ]
     },
     {
       "browser": "firefox",
-      "error": "Browser launch failed: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-4X0iNM -juggler-pipe -silent\n<launched> pid=3119462\n[pid=3119462][err] XPCOMGlueLoad error for file /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so:\n[pid=3119462][err] /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so)\n[pid=3119462][err] Couldn't load XPCOM.\n[pid=3119462] <process did exit: exitCode=255, signal=null>\n[pid=3119462] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-4X0iNM -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=3119462\u001b[22m\n\u001b[2m  - [pid=3119462][err] XPCOMGlueLoad error for file /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so:\u001b[22m\n\u001b[2m  - [pid=3119462][err] /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so)\u001b[22m\n\u001b[2m  - [pid=3119462][err] Couldn't load XPCOM.\u001b[22m\n\u001b[2m  - [pid=3119462] <process did exit: exitCode=255, signal=null>\u001b[22m\n\u001b[2m  - [pid=3119462] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=3119462] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=3119462] <kill>\u001b[22m\n\u001b[2m  - [pid=3119462] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=3119462] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=3119462] <gracefully close end>\u001b[22m\n"
+      "error": "Browser launch failed: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-2MANxt -juggler-pipe -silent\n<launched> pid=3423848\n[pid=3423848][err] XPCOMGlueLoad error for file /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so:\n[pid=3423848][err] /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so)\n[pid=3423848][err] Couldn't load XPCOM.\n[pid=3423848] <process did exit: exitCode=255, signal=null>\n[pid=3423848] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-2MANxt -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=3423848\u001b[22m\n\u001b[2m  - [pid=3423848][err] XPCOMGlueLoad error for file /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so:\u001b[22m\n\u001b[2m  - [pid=3423848][err] /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so)\u001b[22m\n\u001b[2m  - [pid=3423848][err] Couldn't load XPCOM.\u001b[22m\n\u001b[2m  - [pid=3423848] <process did exit: exitCode=255, signal=null>\u001b[22m\n\u001b[2m  - [pid=3423848] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=3423848] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=3423848] <kill>\u001b[22m\n\u001b[2m  - [pid=3423848] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=3423848] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=3423848] <gracefully close end>\u001b[22m\n"
     },
     {
       "browser": "webkit",
@@ -370,5 +294,5 @@
     "fails": 2,
     "warnings": 0
   },
-  "finishedAt": "2026-05-08T06:16:52.771Z"
+  "finishedAt": "2026-05-08T06:44:29.490Z"
 }

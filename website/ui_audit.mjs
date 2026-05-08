@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { chromium, firefox, webkit } from 'playwright';
 
-const BASE_URL = process.env.BASE_URL || 'http://127.0.0.1:5173/Sparse2Full_Official/';
+const BASE_URL = process.env.BASE_URL || 'http://localhost:4173/Sparse2Full_Official/';
 
 const ARTIFACTS_DIR = path.resolve('./test-artifacts');
 const SHOTS_DIR = path.join(ARTIFACTS_DIR, 'screenshots');

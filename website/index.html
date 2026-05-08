@@ -42,13 +42,19 @@
       })();
     </script>
 
-    <!-- Google Analytics (GA4) Mock -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX" crossorigin="anonymous"></script>
+    <!-- Google Analytics (GA4) Mock injected dynamically to avoid SRI hash mismatch on dynamic 3rd-party script -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-XXXXXXXXXX');
+      (function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX";
+        document.head.appendChild(script);
+
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+      })();
     </script>
   </head>
   <body class="bg-background text-foreground antialiased selection:bg-primary/30">
