@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+  </head>
+  <body>
+    <script>
+      (function () {
+        const repoBase = '/Sparse2Full_Official';
+        const { pathname, search, hash } = window.location;
+        const pathWithinBase = pathname.startsWith(repoBase) ? pathname.slice(repoBase.length) : pathname;
+        const target = `${repoBase}/?p=${encodeURIComponent(pathWithinBase + search + hash)}`;
+        window.location.replace(target);
+      })();
+    </script>
+  </body>
+</html>

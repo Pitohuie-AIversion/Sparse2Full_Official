@@ -1,13 +1,14 @@
 import React, { Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
-import Home from './pages/Home';
-import Docs from './pages/Docs';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Login from './pages/Login';
-import Admin from './pages/Admin';
 import './i18n'; // initialize i18n
+
+const Home = React.lazy(() => import('./pages/Home'));
+const Docs = React.lazy(() => import('./pages/Docs'));
+const About = React.lazy(() => import('./pages/About'));
+const Contact = React.lazy(() => import('./pages/Contact'));
+const Login = React.lazy(() => import('./pages/Login'));
+const Admin = React.lazy(() => import('./pages/Admin'));
 
 function App() {
   return (

@@ -18,7 +18,7 @@ export default function Home() {
         <Link to="/docs" className="bg-primary hover:bg-blue-600 text-white px-8 py-4 rounded-xl font-bold transition-all transform hover:scale-105 shadow-[0_0_20px_rgba(59,130,246,0.5)]">
           {t('home.get_started')}
         </Link>
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="bg-slate-800 hover:bg-slate-700 text-slate-200 px-8 py-4 rounded-xl font-bold transition-all border border-slate-700">
+        <a href="https://github.com/Pitohuie-AIversion/Sparse2Full_Official" target="_blank" rel="noopener noreferrer" className="bg-slate-800 hover:bg-slate-700 text-slate-200 px-8 py-4 rounded-xl font-bold transition-all border border-slate-700">
           GitHub Repository
         </a>
       </div>

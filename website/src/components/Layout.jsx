@@ -12,6 +12,20 @@ export default function Layout({ children }) {
   const isDocs = location.pathname === '/docs';
 
   useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key?.toLowerCase() === 'k' && (e.metaKey || e.ctrlKey)) {
+        e.preventDefault();
+        setIsSearchOpen((prev) => !prev);
+      }
+      if (e.key === 'Escape') {
+        setIsSearchOpen(false);
+      }
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  useEffect(() => {
     if (!isDocs) return;
     const handleScroll = () => {
       const sections = document.querySelectorAll('section[id]');

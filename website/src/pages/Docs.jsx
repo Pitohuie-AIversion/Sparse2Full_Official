@@ -1,8 +1,10 @@
-import React from 'react';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 
 export default function Docs() {
+  const location = useLocation();
+  const [SyntaxHighlighter, setSyntaxHighlighter] = useState(null);
+  const [syntaxStyle, setSyntaxStyle] = useState(null);
   const yamlCode = `name: Deploy to GitHub Pages
 
 on:
@@ -14,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -33,6 +35,34 @@ jobs:
           github_token: \${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./website/dist
           publish_branch: gh-pages`;
+
+  useEffect(() => {
+    let active = true;
+    (async () => {
+      try {
+        const [{ Prism }, { vscDarkPlus }] = await Promise.all([
+          import('react-syntax-highlighter'),
+          import('react-syntax-highlighter/dist/esm/styles/prism'),
+        ]);
+        if (!active) return;
+        setSyntaxHighlighter(() => Prism);
+        setSyntaxStyle(vscDarkPlus);
+      } catch {
+      }
+    })();
+    return () => {
+      active = false;
+    };
+  }, []);
+
+  useEffect(() => {
+    const id = location.hash?.replace('#', '');
+    if (!id) return;
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, [location.hash]);
+
   return (
     <div className="prose prose-invert prose-slate max-w-none">
       <section id="overview" className="mb-24 scroll-mt-24">
@@ -107,9 +137,15 @@ jobs:
             项目使用 GitHub Actions 自动构建 React 静态站点，并将编译后的产物推送到 <code>gh-pages</code> 分支。以下是 <code>.github/workflows/deploy.yml</code> 的配置内容：
           </p>
           <div className="rounded-xl overflow-hidden border border-slate-700/50 my-4 shadow-xl">
-            <SyntaxHighlighter language="yaml" style={vscDarkPlus} customStyle={{ margin: 0, padding: '1.5rem', background: '#0d1117' }}>
-              {yamlCode}
-            </SyntaxHighlighter>
+            {SyntaxHighlighter && syntaxStyle ? (
+              <SyntaxHighlighter language="yaml" style={syntaxStyle} customStyle={{ margin: 0, padding: '1.5rem', background: '#0d1117' }}>
+                {yamlCode}
+              </SyntaxHighlighter>
+            ) : (
+              <pre className="m-0 p-6 bg-[#0d1117] text-slate-200 overflow-x-auto text-sm">
+                <code>{yamlCode}</code>
+              </pre>
+            )}
           </div>
         </div>
       </section>
@@ -189,12 +225,12 @@ jobs:
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 text-slate-200">许可证</h3>
-            <p className="text-slate-400">本项目采用 <a href="#" className="text-primary hover:underline">MIT License</a> 进行开源。</p>
+            <p className="text-slate-400">本项目采用 <a href="https://github.com/Pitohuie-AIversion/Sparse2Full_Official/blob/main/LICENSE" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">MIT License</a> 进行开源。</p>
           </div>
           <div>
             <h3 className="text-xl font-semibold mb-4 text-slate-200">联系方式</h3>
             <p className="text-slate-400">
-              如果在运行或部署中遇到问题，请通过 <a href="https://github.com" className="text-primary hover:underline">GitHub Issues</a> 与我们取得联系。
+              如果在运行或部署中遇到问题，请通过 <a href="https://github.com/Pitohuie-AIversion/Sparse2Full_Official/issues" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">GitHub Issues</a> 与我们取得联系。
             </p>
           </div>
         </div>

@@ -2,16 +2,46 @@
 <html lang="zh-CN" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Sparse2Full - Advanced deep learning framework for sparse data reconstruction.">
-    <meta name="keywords" content="Deep Learning, AI, Sparse2Full, Reconstruction, PyTorch">
+    <meta name="description" content="Sparse2Full - 高级深度学习框架，专注于稀疏数据重建与高质量模型训练。">
+    <meta name="keywords" content="Deep Learning, AI, Sparse2Full, Reconstruction, PyTorch, 深度学习, 稀疏数据重建">
+    <meta name="author" content="Sparse2Full Team">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pitohuie-aiversion.github.io/Sparse2Full_Official/">
+    <meta property="og:title" content="Sparse2Full - 深度学习稀疏数据重建框架">
+    <meta property="og:description" content="高级深度学习框架，专注于稀疏数据重建与高质量模型训练。">
+    <meta property="og:image" content="https://pitohuie-aiversion.github.io/Sparse2Full_Official/hero.png">
+    
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://pitohuie-aiversion.github.io/Sparse2Full_Official/">
+    <meta property="twitter:title" content="Sparse2Full - 深度学习稀疏数据重建框架">
+    <meta property="twitter:description" content="高级深度学习框架，专注于稀疏数据重建与高质量模型训练。">
+    <meta property="twitter:image" content="https://pitohuie-aiversion.github.io/Sparse2Full_Official/hero.png">
     
     <!-- Security Headers (Mocked for static site context) -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://*.github.com; img-src 'self' data: https:; font-src 'self' data:;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com; connect-src 'self' https://www.google-analytics.com https://www.google.com https://api.github.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline'; font-src 'self' data:;">
     <meta http-equiv="Strict-Transport-Security" content="max-age=31536000; includeSubDomains; preload">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
 
     <title>Sparse2Full Project Documentation</title>
+
+    <script>
+      (function () {
+        const url = new URL(window.location.href);
+        const p = url.searchParams.get('p');
+        if (!p) return;
+        url.searchParams.delete('p');
+        const base = url.pathname.endsWith('/') ? url.pathname.slice(0, -1) : url.pathname;
+        const next = base + p + (url.searchParams.toString() ? `?${url.searchParams.toString()}` : '');
+        window.history.replaceState(null, '', next);
+      })();
+    </script>
 
     <!-- Google Analytics (GA4) Mock -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>

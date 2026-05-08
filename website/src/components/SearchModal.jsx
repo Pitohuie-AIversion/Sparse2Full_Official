@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Search, X } from 'lucide-react';
 import Fuse from 'fuse.js';
 
@@ -17,6 +18,7 @@ export default function SearchModal({ isOpen, onClose }) {
   const [query, setQuery] = useState('');
   const [results, setResults] = useState([]);
   const inputRef = useRef(null);
+  const navigate = useNavigate();
 
   const fuse = new Fuse(SEARCH_DATA, {
     keys: ['title', 'content'],
@@ -36,10 +38,6 @@ export default function SearchModal({ isOpen, onClose }) {
 
   useEffect(() => {
     const handleKeyDown = (e) => {
-      if (e.key === 'k' && (e.metaKey || e.ctrlKey)) {
-        e.preventDefault();
-        isOpen ? onClose() : onClose(); // handled by parent, here we just close if open
-      }
       if (e.key === 'Escape' && isOpen) {
         onClose();
       }
@@ -47,6 +45,11 @@ export default function SearchModal({ isOpen, onClose }) {
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, [isOpen, onClose]);
+
+  const handleNavigate = (id) => {
+    onClose();
+    navigate(`/docs#${id}`);
+  };
 
   const handleSearch = (e) => {
     const val = e.target.value;
@@ -83,14 +86,15 @@ export default function SearchModal({ isOpen, onClose }) {
           <ul className="max-h-96 overflow-y-auto p-2 text-sm text-slate-300">
             {results.map((item) => (
               <li key={item.id}>
-                <a
-                  href={`#${item.id}`}
-                  onClick={onClose}
-                  className="block rounded-lg px-4 py-3 hover:bg-slate-700/50 transition-colors"
+                <button
+                  type="button"
+                  onClick={() => handleNavigate(item.id)}
+                  className="w-full text-left block rounded-lg px-4 py-3 hover:bg-slate-700/50 transition-colors"
+                  aria-label={`Go to ${item.title}`}
                 >
                   <div className="font-medium text-slate-100">{item.title}</div>
                   <div className="text-slate-400 text-xs mt-1 truncate">{item.content}</div>
-                </a>
+                </button>
               </li>
             ))}
           </ul>

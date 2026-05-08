@@ -1,0 +1,294 @@
+{
+  "startedAt": "2026-04-28T15:17:20.043Z",
+  "baseUrl": "http://127.0.0.1:4174/Sparse2Full_Official/",
+  "runs": [
+    {
+      "browser": "chromium",
+      "viewport": "desktop",
+      "pages": [
+        {
+          "name": "home",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 1227,
+          "screenshot": "screenshots/chromium_desktop_home.png"
+        },
+        {
+          "name": "docs",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/docs",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 1388,
+          "screenshot": "screenshots/chromium_desktop_docs.png"
+        },
+        {
+          "name": "about",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/about",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 526,
+          "screenshot": "screenshots/chromium_desktop_about.png"
+        },
+        {
+          "name": "contact",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/contact",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 526,
+          "screenshot": "screenshots/chromium_desktop_contact.png"
+        },
+        {
+          "name": "login",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/login",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 522,
+          "screenshot": "screenshots/chromium_desktop_login.png"
+        },
+        {
+          "name": "admin",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/admin",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 521,
+          "screenshot": "screenshots/chromium_desktop_admin.png"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Search hotkey + navigate",
+          "ok": true
+        },
+        {
+          "name": "Contact form validation + submit",
+          "ok": true
+        },
+        {
+          "name": "Login validation + navigate to admin",
+          "ok": true
+        }
+      ],
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389440173&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=5&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938469~117266401~117384406~117512542~118167058&sid=1777389440&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=540",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389441502&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=18&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&tag_exp=0~115938465~115938469~117266400~117512542~118167058&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fdocs&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1629",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389443128&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=0&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616986~115938465~115938469~117266400~117512542&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fabout&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=629",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389443750&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=9&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938468~117266400~117512542~118463261&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=629",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389444375&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=11&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938466~115938468~117266400~117384406~117512542~118167059&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Flogin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=619",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389444991&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=8&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938468~117266401~117512542&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fadmin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=625",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389445612&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=0&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616985~115938466~115938469~117266400~117512542~118463262&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=588",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389446197&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=250334002.1777389441&frm=0&pscdl=noapi&rcb=10&sr=1365x768&uaa=x86&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=zh-cn&tag_exp=0~115616986~115938466~115938469~117266401~117512542&sid=1777389440&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1400",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": [],
+      "timings": [
+        {
+          "name": "home",
+          "elapsedMs": 1227,
+          "mainStatus": 200
+        },
+        {
+          "name": "docs",
+          "elapsedMs": 1388,
+          "mainStatus": 200
+        },
+        {
+          "name": "about",
+          "elapsedMs": 526,
+          "mainStatus": 200
+        },
+        {
+          "name": "contact",
+          "elapsedMs": 526,
+          "mainStatus": 200
+        },
+        {
+          "name": "login",
+          "elapsedMs": 522,
+          "mainStatus": 200
+        },
+        {
+          "name": "admin",
+          "elapsedMs": 521,
+          "mainStatus": 200
+        }
+      ]
+    },
+    {
+      "browser": "chromium",
+      "viewport": "mobile",
+      "pages": [
+        {
+          "name": "home",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 1142,
+          "screenshot": "screenshots/chromium_mobile_home.png"
+        },
+        {
+          "name": "docs",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/docs",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 1315,
+          "screenshot": "screenshots/chromium_mobile_docs.png"
+        },
+        {
+          "name": "about",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/about",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 526,
+          "screenshot": "screenshots/chromium_mobile_about.png"
+        },
+        {
+          "name": "contact",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/contact",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 527,
+          "screenshot": "screenshots/chromium_mobile_contact.png"
+        },
+        {
+          "name": "login",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/login",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 522,
+          "screenshot": "screenshots/chromium_mobile_login.png"
+        },
+        {
+          "name": "admin",
+          "url": "http://127.0.0.1:4174/Sparse2Full_Official/admin",
+          "ok": true,
+          "mainStatus": 200,
+          "elapsedMs": 521,
+          "screenshot": "screenshots/chromium_mobile_admin.png"
+        }
+      ],
+      "checks": [
+        {
+          "name": "Search hotkey + navigate",
+          "ok": true
+        },
+        {
+          "name": "Contact form validation + submit",
+          "ok": true
+        },
+        {
+          "name": "Login validation + navigate to admin",
+          "ok": true
+        }
+      ],
+      "consoleMessages": [],
+      "pageErrors": [],
+      "failedRequests": [
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389448547&gcd=13l3l3l3l1l1&npa=0&dma=0&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=2&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616986~115938466~115938468~117266400~117512543~118289195&sid=1777389448&sct=1&seg=0&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=460",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389449842&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=13&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&tag_exp=0~115938466~115938469~117266400~117512543~118289195&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fdocs&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1662",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389451502&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=13&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616985~115938465~115938468~117266400~117384406~117512543~118167059~118463262&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fabout&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=646",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389452141&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=10&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938468~117266400~117512543&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=647",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389452785&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=6&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616986~115938465~115938468~117266400~117512543~118167060&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Flogin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=636",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389453417&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=17&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115938465~115938469~117266400~117384406~117512543~118289195&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fadmin&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=656",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389454069&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=19&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&_s=1&tag_exp=0~115616986~115938465~115938468~116363098~117266400~117384405~117512543&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2F&dt=Sparse2Full%20Project%20Documentation&en=page_view&_ee=1&tfd=576",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-XXXXXXXXXX&gtm=45je64o1za200&_p=1777389454642&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAAQ&are=1&cid=864770448.1777389449&frm=0&pscdl=noapi&rcb=5&sr=390x844&uaa=arm&uab=64&uafvl=HeadlessChrome%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0%7CChromium%3B147.0.7727.15&uam=&uamb=1&uap=iOS&uapv=17.0&uaw=0&ul=zh-cn&tag_exp=0~115938466~115938469~116363098~117266400~117384406~117512543&sid=1777389448&sct=1&seg=1&dl=http%3A%2F%2F127.0.0.1%2FSparse2Full_Official%2Fcontact&dt=Sparse2Full%20Project%20Documentation&_s=1&tfd=1387",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "badResponses": [],
+      "timings": [
+        {
+          "name": "home",
+          "elapsedMs": 1142,
+          "mainStatus": 200
+        },
+        {
+          "name": "docs",
+          "elapsedMs": 1315,
+          "mainStatus": 200
+        },
+        {
+          "name": "about",
+          "elapsedMs": 526,
+          "mainStatus": 200
+        },
+        {
+          "name": "contact",
+          "elapsedMs": 527,
+          "mainStatus": 200
+        },
+        {
+          "name": "login",
+          "elapsedMs": 522,
+          "mainStatus": 200
+        },
+        {
+          "name": "admin",
+          "elapsedMs": 521,
+          "mainStatus": 200
+        }
+      ]
+    },
+    {
+      "browser": "firefox",
+      "error": "Browser launch failed: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-MhcQhA -juggler-pipe -silent\n<launched> pid=14333\n[pid=14333][err] XPCOMGlueLoad error for file /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so:\n[pid=14333][err] /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so)\n[pid=14333][err] Couldn't load XPCOM.\n[pid=14333] <process did exit: exitCode=255, signal=null>\n[pid=14333] starting temporary directories cleanup\nCall log:\n\u001b[2m  - <launching> /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/firefox -no-remote -headless -profile /tmp/playwright_firefoxdev_profile-MhcQhA -juggler-pipe -silent\u001b[22m\n\u001b[2m  - <launched> pid=14333\u001b[22m\n\u001b[2m  - [pid=14333][err] XPCOMGlueLoad error for file /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so:\u001b[22m\n\u001b[2m  - [pid=14333][err] /lib64/libstdc++.so.6: version `GLIBCXX_3.4.26' not found (required by /share/fandixiaLab/suguangsheng/.cache/ms-playwright/firefox-1511/firefox/libmozsandbox.so)\u001b[22m\n\u001b[2m  - [pid=14333][err] Couldn't load XPCOM.\u001b[22m\n\u001b[2m  - [pid=14333] <process did exit: exitCode=255, signal=null>\u001b[22m\n\u001b[2m  - [pid=14333] starting temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14333] <gracefully close start>\u001b[22m\n\u001b[2m  - [pid=14333] <kill>\u001b[22m\n\u001b[2m  - [pid=14333] <skipped force kill spawnedProcess.killed=false processClosed=true>\u001b[22m\n\u001b[2m  - [pid=14333] finished temporary directories cleanup\u001b[22m\n\u001b[2m  - [pid=14333] <gracefully close end>\u001b[22m\n"
+    },
+    {
+      "browser": "webkit",
+      "error": "Browser launch failed: browserType.launch: \n╔══════════════════════════════════════════════════════╗\n║ Host system is missing dependencies to run browsers. ║\n║ Missing libraries:                                   ║\n║     libgtk-4.so.1                                    ║\n║     libvulkan.so.1                                   ║\n║     libgraphene-1.0.so.0                             ║\n║     libicudata.so.74                                 ║\n║     libicui18n.so.74                                 ║\n║     libatomic.so.1                                   ║\n║     libicuuc.so.74                                   ║\n║     libevent-2.1.so.7                                ║\n║     libflite.so.1                                    ║\n║     libflite_usenglish.so.1                          ║\n║     libflite_cmu_grapheme_lang.so.1                  ║\n║     libflite_cmu_grapheme_lex.so.1                   ║\n║     libflite_cmu_indic_lang.so.1                     ║\n║     libflite_cmu_indic_lex.so.1                      ║\n║     libflite_cmulex.so.1                             ║\n║     libflite_cmu_time_awb.so.1                       ║\n║     libflite_cmu_us_awb.so.1                         ║\n║     libflite_cmu_us_kal16.so.1                       ║\n║     libflite_cmu_us_kal.so.1                         ║\n║     libflite_cmu_us_rms.so.1                         ║\n║     libflite_cmu_us_slt.so.1                         ║\n║     libavif.so.16                                    ║\n║     libjpeg.so.8                                     ║\n║     libmanette-0.2.so.0                              ║\n║     libx264.so                                       ║\n╚══════════════════════════════════════════════════════╝"
+    }
+  ],
+  "summary": {
+    "passes": 12,
+    "fails": 2,
+    "warnings": 0
+  },
+  "finishedAt": "2026-04-28T15:17:37.112Z"
+}

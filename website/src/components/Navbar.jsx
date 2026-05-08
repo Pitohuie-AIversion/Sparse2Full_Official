@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Search, GitBranch, MonitorPlay, Activity, Globe } from 'lucide-react';
+import { Search, GitBranch, Activity, Globe } from 'lucide-react';
 
 export default function Navbar({ onSearchOpen }) {
   const { t, i18n } = useTranslation();
@@ -51,7 +51,7 @@ export default function Navbar({ onSearchOpen }) {
                 <Link to="/login" className="text-sm font-medium text-slate-300 hover:text-primary transition-colors">
                   {t('navbar.login')}
                 </Link>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-50 transition-colors" aria-label="GitHub Repository">
+                <a href="https://github.com/Pitohuie-AIversion/Sparse2Full_Official" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-slate-50 transition-colors" aria-label="GitHub Repository">
                   <GitBranch className="w-5 h-5" aria-hidden="true" />
                 </a>
               </div>
