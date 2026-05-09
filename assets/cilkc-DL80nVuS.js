@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-CilyBKbf.js";import{t}from"./c-BEJMII2F.js";var n=e({default:()=>r});r.displayName=`cilkc`,r.aliases=[`cilk-c`];function r(e){e.register(t),e.languages.cilkc=e.languages.insertBefore(`c`,`function`,{"parallel-keyword":{pattern:/\bcilk_(?:for|reducer|s(?:cope|pawn|ync))\b/,alias:`keyword`}}),e.languages[`cilk-c`]=e.languages.cilkc}export{n,r as t};

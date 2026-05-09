@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-CilyBKbf.js";import{t}from"./json-CRaBxoOp.js";var n=e({default:()=>r});r.displayName=`jsonp`,r.aliases=[];function r(e){e.register(t),e.languages.jsonp=e.languages.extend(`json`,{punctuation:/[{}[\]();,.]/}),e.languages.insertBefore(`jsonp`,`punctuation`,{function:/(?!\s)[_$a-zA-Z\xA0-\uFFFF](?:(?!\s)[$\w\xA0-\uFFFF])*(?=\s*\()/})}export{n,r as t};

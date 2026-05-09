@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-CilyBKbf.js";var t=e({default:()=>n});n.displayName=`csv`,n.aliases=[];function n(e){e.languages.csv={value:/[^\r\n,"]+|"(?:[^"]|"")*"(?!")/,punctuation:/,/}}export{t as n,n as t};

@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-CilyBKbf.js";var t=e({default:()=>n});n.displayName=`hpkp`,n.aliases=[];function n(e){e.languages.hpkp={directive:{pattern:/\b(?:includeSubDomains|max-age|pin-sha256|preload|report-to|report-uri|strict)(?=[\s;=]|$)/i,alias:`property`},operator:/=/,punctuation:/;/}}export{t as n,n as t};

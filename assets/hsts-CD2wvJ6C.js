@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-CilyBKbf.js";var t=e({default:()=>n});n.displayName=`hsts`,n.aliases=[];function n(e){e.languages.hsts={directive:{pattern:/\b(?:includeSubDomains|max-age|preload)(?=[\s;=]|$)/i,alias:`property`},operator:/=/,punctuation:/;/}}export{t as n,n as t};

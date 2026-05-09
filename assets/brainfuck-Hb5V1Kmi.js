@@ -1,0 +1,1 @@
+import{n as e}from"./chunk-CilyBKbf.js";var t=e({default:()=>n});n.displayName=`brainfuck`,n.aliases=[];function n(e){e.languages.brainfuck={pointer:{pattern:/<|>/,alias:`keyword`},increment:{pattern:/\+/,alias:`inserted`},decrement:{pattern:/-/,alias:`deleted`},branching:{pattern:/\[|\]/,alias:`important`},operator:/[.,]/,comment:/\S+/}}export{t as n,n as t};
