@@ -13,6 +13,8 @@ jobs:
     name: Analyze (${{ matrix.language }})
     runs-on: ubuntu-latest
     timeout-minutes: 360
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       security-events: write
       packages: read
@@ -23,7 +25,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-        - language: javascript-and-typescript
+        - language: javascript-typescript
           build-mode: none
 
     steps:
@@ -31,12 +33,12 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Initialize CodeQL
-      uses: github/codeql-action/init@v3
+      uses: github/codeql-action/init@v4
       with:
         languages: ${{ matrix.language }}
         build-mode: ${{ matrix.build-mode }}
 
     - name: Perform CodeQL Analysis
-      uses: github/codeql-action/analyze@v3
+      uses: github/codeql-action/analyze@v4
       with:
         category: "/language:${{matrix.language}}"
